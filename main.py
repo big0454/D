@@ -43,7 +43,7 @@ def handle(client):
               data = json.load(f.read())
             if method in data["methods"]:
               r=requests.get(data["api"].replace("<<$target>>", target).replace("<<$port>>", port).replace("<<$time>>", time).replace("<<$method>>", method)).text
-              client.send(f"Attack Sent: {r}\n\r\n\r".encode())
+              client.send(f"Attack Sent: {r}\n".encode())
    except:
      pass 
 
