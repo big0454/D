@@ -1,5 +1,5 @@
 {
-  "api": "https://ddosapi1.com/api.php?method=<<$method>>&target=<<$target>>&port=<<$port>>&time=<<$time>>",
+  "api": "188.212.158.10/api.php?method=<<$method>>&target=<<$target>>&port=<<$port>>&time=<<$time>>",
   "methods": [
     "UDP",
     "TCP",
